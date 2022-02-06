@@ -28,7 +28,7 @@ After reading into the `sfo_neighborhoods_census_data` CSV file, the `sfo_data` 
 
 The `groupby()` function was used and each year's mean was plotted. As you can see, the housing units have been increasing steadly in the timeframe of 2010-2016.
 
-![SF Housing Units}](Images/SF_Housing.png)
+![SF Housing Units](Images/SF_housing.png)
 
 ---
 
