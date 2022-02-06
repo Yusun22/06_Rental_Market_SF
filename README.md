@@ -70,7 +70,7 @@ The dropdown menu allows clients to look at data of different neighborhoods.
 
 Using the original data set and another dataset combined, a new dataset, `all_neighborhoods_df` was created where it includes the neighborhoods' longtitudes and lattitudes. This allowed for the making of an interactive map using the following codes to visualize the housing trends of SF in 2010-2016.
 
-````python
+```python
 all_neighborhoods_df.hvplot.points(
     'Lon',
     'Lat',
@@ -81,8 +81,8 @@ all_neighborhoods_df.hvplot.points(
     frame_width=700,
     frame_height=500
     )
-    ```
-````
+
+```
 
 ![SF Rent Prices](Images/SF_rent_prices.png)
 
